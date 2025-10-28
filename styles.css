@@ -33,6 +33,22 @@ body {
     align-items: center;
 }
 
+/* las imágenes no se pueden arrastrar*/
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.text-content, .small-text-content, .footer-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -52,6 +68,7 @@ body {
 .overlay2 {
     z-index: 1001;
 }
+
 
 
 
