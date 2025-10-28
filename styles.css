@@ -657,6 +657,23 @@ a, button, .color-button, .player-controls i,
 }
 
 
+/* las imágenes no se pueden arrastrar*/
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.text-content, .small-text-content, .footer-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+
 /* SAFARI VETE A TOMAR POR CULO */
 @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
