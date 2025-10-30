@@ -496,13 +496,13 @@ body.red-theme .player-controls i {
 }
 
 body.red-theme .overlay1 {
-    background-image: url('overlay/overlayD01.png');
+    background-image: url('overlay/overlayD01.webp');
     mix-blend-mode: multiply;
     opacity: 0.10;
 }
 
 body.red-theme .overlay2 {
-    background-image: url('overlay/overlayP41.png');
+    background-image: url('overlay/overlayP41.webp');
     mix-blend-mode: lighten;
     opacity: 0.45;
 }
@@ -529,13 +529,13 @@ body.blue-theme .player-controls i {
 }
 
 body.blue-theme .overlay1 {
-    background-image: url('overlay/overlayD0.png');
+    background-image: url('overlay/overlayD0.webp');
     mix-blend-mode: screen;
     opacity: 0.04;
 }
 
 body.blue-theme .overlay2 {
-    background-image: url('overlay/overlayP4.png');
+    background-image: url('overlay/overlayP4.webp');
     mix-blend-mode: soft-light;
     opacity: 1;
 }
@@ -563,13 +563,13 @@ body.white-theme .player-controls i {
 }
 
 body.white-theme .overlay1 {
-    background-image: url('overlay/overlayD0.png');
+    background-image: url('overlay/overlayD0.webp');
     mix-blend-mode: multiply;
     opacity: 0.03;
 }
 
 body.white-theme .overlay2 {
-    background-image: url('overlay/overlayP4.png');
+    background-image: url('overlay/overlayP4.webp');
     mix-blend-mode: multiply;
     opacity: 0.6;
 }
@@ -597,13 +597,13 @@ body.yellow-theme .player-controls i {
 }
 
 body.yellow-theme .overlay1 {
-    background-image: url('overlay/overlayD0.png');
+    background-image: url('overlay/overlayD0.webp');
     mix-blend-mode: multiply;
     opacity: 0.05;
 }
 
 body.yellow-theme .overlay2 {
-    background-image: url('overlay/overlayP4.png');
+    background-image: url('overlay/overlayP4.webp');
     mix-blend-mode: overlay;
     opacity: 1;
 }
