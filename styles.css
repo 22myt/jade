@@ -571,7 +571,7 @@ body.white-theme .overlay1 {
 body.white-theme .overlay2 {
     background-image: url('overlay/overlayP4.webp');
     mix-blend-mode: multiply;
-    opacity: 0.3;
+    opacity: 0.35;
 }
 
 /* Estilos para tema AMARILLO */
