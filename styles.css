@@ -565,13 +565,13 @@ body.white-theme .player-controls i {
 body.white-theme .overlay1 {
     background-image: url('overlay/overlayD0.webp');
     mix-blend-mode: multiply;
-    opacity: 0.03;
+    opacity: 0.025;
 }
 
 body.white-theme .overlay2 {
     background-image: url('overlay/overlayP4.webp');
     mix-blend-mode: multiply;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 /* Estilos para tema AMARILLO */
