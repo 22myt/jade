@@ -664,12 +664,12 @@ body.yellow-theme .footer-text {
     opacity: 0.6;
 }
 
-/* a, button, .color-button, .player-controls i, 
+a, button, .color-button, .player-controls i, 
 .left-side-elements, .hover-image, 
 #logo-img, #colours-img, #oculum-img, 
 #logobrat-img, #id-img {
-    cursor: url('MOUSE1.png'), pointer;
-}  */
+    cursor: url('MOUSE2.png'), pointer;
+}  
 
 .text-content, .small-text-content, .footer-text {
     cursor: url('MOUSE1.png'), text;
