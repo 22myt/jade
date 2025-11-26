@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const linkWrapper = document.createElement('a');
         linkWrapper.href = "https://xat.me/942659922";
-        linkWrapper.target = "_blank";
+        linkWrapper.target = "_self";
         linkWrapper.rel = "noopener noreferrer";
         linkWrapper.style.textDecoration = 'none';
         linkWrapper.style.color = 'inherit';
