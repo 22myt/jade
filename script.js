@@ -767,7 +767,7 @@ function handleContainerScaling() {
         } else {
             // Restaurar zoom normal si no hay overflow
             container.style.transform = 'none';
-            container.style.zoom = '0.20';
+            container.style.zoom = '1.0';
             container.classList.remove('scaled');
         }
     }
