@@ -477,40 +477,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-function setupLeftSideLink() {
-    const leftSideElements = document.querySelector('.left-side-elements');
-    
-    if (leftSideElements.querySelector('a')) return;
-
-    const linkWrapper = document.createElement('a');
-    linkWrapper.href = "https://xat.me/942659922";
-    linkWrapper.target = "_self"; 
-    linkWrapper.rel = "noopener noreferrer";
-    linkWrapper.style.textDecoration = 'none';
-    linkWrapper.style.color = 'inherit';
-    linkWrapper.style.cursor = 'pointer';
-    linkWrapper.style.display = 'flex';
-    linkWrapper.style.flexDirection = 'column';
-    linkWrapper.style.alignItems = 'center';
-    linkWrapper.style.gap = '8px';
-    
-    const children = Array.from(leftSideElements.childNodes);
-    children.forEach(child => {
-        linkWrapper.appendChild(child.cloneNode(true));
-    });
-    leftSideElements.innerHTML = ""; 
-    leftSideElements.appendChild(linkWrapper);
-    
-    leftSideElements.addEventListener('mouseenter', function() {
-        playSound(click7Sound);
-    });
-}
-
-window.addEventListener("pageshow", function(event) {
-    if (event.persisted) {
-        setupLeftSideLink();
+    function setupLeftSideLink() {
+        const leftSideElements = document.querySelector('.left-side-elements');
+        
+        const linkWrapper = document.createElement('a');
+        linkWrapper.href = "https://xat.me/942659922";
+        linkWrapper.target = "_blank";
+        linkWrapper.rel = "noopener noreferrer";
+        linkWrapper.style.textDecoration = 'none';
+        linkWrapper.style.color = 'inherit';
+        linkWrapper.style.cursor = 'pointer';
+        linkWrapper.style.display = 'flex';
+        linkWrapper.style.flexDirection = 'column';
+        linkWrapper.style.alignItems = 'center';
+        linkWrapper.style.gap = '8px';
+        
+        while (leftSideElements.firstChild) {
+            linkWrapper.appendChild(leftSideElements.firstChild);
+        }
+        
+        leftSideElements.appendChild(linkWrapper);
+        
+        leftSideElements.addEventListener('mouseenter', function() {
+            playSound(click7Sound);
+        });
     }
-});
 
     
     function changeTheme(color) {
